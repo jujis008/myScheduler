@@ -1,25 +1,43 @@
 package com.jd.jr.jrScheduler;
 
 /**
- * Created by maoxiangyi on 14-7-22.
+ * 功能描述：
+ * <p/>
+ * <p/>
+ * ----------------------------
+ * 姓名：毛祥溢
+ * 邮箱：sendmail2mao@gmail.com
+ * 网站：www.maoxiangyi.cn
  */
 public class ScheduleJob {
-    /** 任务id */
+    /**
+     * 任务id
+     */
     private String jobId;
 
-    /** 任务名称 */
+    /**
+     * 任务名称
+     */
     private String jobName;
 
-    /** 任务分组 */
+    /**
+     * 任务分组
+     */
     private String jobGroup;
 
-    /** 任务状态 0禁用 1启用 2删除*/
+    /**
+     * 任务状态 0禁用 1启用 2删除
+     */
     private String jobStatus;
 
-    /** 任务运行时间表达式 */
+    /**
+     * 任务运行时间表达式
+     */
     private String cronExpression;
 
-    /** 任务描述 */
+    /**
+     * 任务描述
+     */
     private String desc;
 
     public String getJobId() {
@@ -68,5 +86,17 @@ public class ScheduleJob {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    @Override
+    public String toString() {
+        return "ScheduleJob{" +
+                "jobId='" + jobId + '\'' +
+                ", jobName='" + jobName + '\'' +
+                ", jobGroup='" + jobGroup + '\'' +
+                ", jobStatus='" + jobStatus + '\'' +
+                ", cronExpression='" + cronExpression + '\'' +
+                ", desc='" + desc + '\'' +
+                '}';
     }
 }

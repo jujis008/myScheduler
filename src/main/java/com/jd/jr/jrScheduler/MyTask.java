@@ -1,7 +1,13 @@
 package com.jd.jr.jrScheduler;
 
 /**
- * Created by maoxiangyi on 14-7-22.
+ * 功能描述：
+ * <p/>
+ * <p/>
+ * ----------------------------
+ * 姓名：毛祥溢
+ * 邮箱：sendmail2mao@gmail.com
+ * 网站：www.maoxiangyi.cn
  */
 public class MyTask {
     public void execute() {
